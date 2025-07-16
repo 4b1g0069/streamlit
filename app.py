@@ -4,7 +4,7 @@ import random
 
 st.set_page_config(page_title="網路攻擊日誌分析", layout="centered")
 
-st.title("基於深度學習的網路攻擊日誌分析")
+st.title("網路攻擊日誌分析")
 st.write("請上傳一個 log 檔案（CSV 格式），系統將模擬判斷是否為攻擊")
 
 # 檔案上傳
