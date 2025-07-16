@@ -20,7 +20,7 @@ if uploaded_file is not None:
     if st.button("開始分析"):
         st.info("模型正在分析中...")
         
-        # 模擬模型結果（這裡你可以換成自己的模型函數）
+        # 模擬模型結果
         attack_predictions = []
         for _ in range(len(df)):
             is_attack = random.choice([True, False])
